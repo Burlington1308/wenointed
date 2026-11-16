@@ -26,7 +26,7 @@ body {
     justify-content: space-around;
 }
 
-.navbar .nav-links a {
+.navbar .nav-links .nav-link {
     text-decoration: none;
     color: #333;
     font-weight: bold;
@@ -37,5 +37,13 @@ body {
     padding: 10px 20px;
     color: white;
     transition: 0.4s ease-in-out all;
+    border-radius: 5px;
+}
+
+.nav-links .contact{
+    background: rgb(66, 102, 3);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
     border-radius: 5px;
 }

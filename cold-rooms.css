@@ -1,0 +1,91 @@
+.services {
+    width: 100%;
+    height: auto;
+    background-color: #e6e5e591;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services h1 {
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: #222222;
+}
+
+.card-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: #e4f3d291;
+}
+
+.card {
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(111, 94, 114, 0.6);
+    margin: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+.card img {
+    width: 60%;
+    aspect-ratio: 16/9;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.card h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.card p {
+    padding: 0 1rem 1rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.card button {
+    background-color: rgb(66, 102, 3);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: rgb(43, 66, 3);
+}
+
+.card button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}
