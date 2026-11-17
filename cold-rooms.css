@@ -294,3 +294,8 @@
 .main ul li {
     line-height: 1.6;
 }
+
+.main p {
+    text-align: center;
+    line-height: 1.5;
+}
