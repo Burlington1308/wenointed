@@ -18,32 +18,40 @@
     height: 80vh;
     width: 100vw;
     backdrop-filter: blur(2px);
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     place-content: center;
 }
 
-.hero-head {
-    font-size: clamp(2rem, 5vw, 3rem);
+.hero-msg h1 {
+    
     margin-bottom: 1rem;
     font-weight: 700;
 }
 
-.hero-text {
-    font-size: clamp(1rem, 3vw, 1.5rem);
+.hero-msg p {
+    
     font-weight: 400;
     line-height: 1.5rem;
 }
 
 .cta {
-    background-color: #4946fc;
+    background-color: rgb(66, 102, 3);
     color: white;
     border: none;
     padding: 10px 20px;
+    max-width:fit-content;
     margin-bottom: 1rem;
     margin-top: 3rem;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.cta:hover {
+    background: rgb(43, 66, 3);
 }
 
 .services {
