@@ -299,3 +299,8 @@
     text-align: center;
     line-height: 1.5;
 }
+
+.main p a {
+    color: rgb(66, 102, 3);
+    text-decoration: none;
+}
