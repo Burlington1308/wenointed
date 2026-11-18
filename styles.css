@@ -229,3 +229,37 @@ main {
 .cleaning a:hover, .aircon a:hover {
     background: rgb(41, 63, 4);
 }
+
+.float-contact{
+    background: rgb(66, 102, 3);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    position: fixed;
+    top: 60%;
+    right: 5%;
+    z-index: 500;
+    box-shadow: 5px 5px 5px rgba(0, 0 , 0, 1);
+    transform: scale(1);
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 5px 5px 5px rgba(0, 0 , 0, 0.7);
+        background: rgb(103, 160, 5);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 5px 5px 5px rgba(0, 0 , 0, 0.4);
+        background: rgb(66, 102, 3);
+    }
+    100% {
+        transform: scale(0.9);
+        box-shadow: 5px 5px 5px rgba(0, 0 , 0, 0.2);
+        background: rgb(103, 160, 5);
+    }
+
+}
